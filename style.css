@@ -1,0 +1,466 @@
+/* =========================================
+   GLOBAL
+========================================= */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #5c4050;
+  background-color: #fff7fb;
+}
+
+
+/* =========================================
+   NAVBAR
+========================================= */
+
+.navbar-pink {
+  background-color: #e9a0bd;
+}
+
+.navbar-brand {
+  font-size: 25px;
+  font-weight: bold;
+  color: white !important;
+}
+
+.nav-link {
+  margin-left: 10px;
+  color: white !important;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #ffe5f0 !important;
+}
+
+
+/* =========================================
+   HOME
+========================================= */
+
+.jumbotron {
+  padding-top: 130px;
+  padding-bottom: 100px;
+
+  background: linear-gradient(
+    135deg,
+    #ffdce9,
+    #fff5f9
+  );
+}
+
+.profile-img {
+  border: 5px solid white;
+
+  box-shadow:
+    0 8px 20px rgba(219, 132, 166, 0.20);
+}
+
+.jumbotron h1 {
+  margin-top: 25px;
+
+  color: #d86f9b;
+
+  font-weight: bold;
+}
+
+.jumbotron .lead {
+  color: #80616f;
+}
+
+
+/* =========================================
+   ABOUT
+========================================= */
+
+.about-section {
+  padding: 80px 0;
+
+  background-color: #ffffff;
+}
+
+.about-section h2 {
+  color: #d86f9b;
+
+  font-weight: bold;
+
+  font-family: Georgia, serif;
+}
+
+.about-section p {
+  line-height: 1.8;
+
+  font-size: 16px;
+
+  color: #66515c;
+}
+
+
+/* =========================================
+   PROJECT
+========================================= */
+
+.project-section {
+  background-color: #fff0f6;
+}
+
+.project-section h2 {
+  color: #d86f9b;
+
+  font-family: Georgia, serif;
+
+  font-weight: bold;
+}
+
+.project-section .text-center p {
+  color: #80616f;
+}
+
+
+/* =========================================
+   PROJECT CARD
+========================================= */
+
+.project-section .card {
+  border: none;
+
+  border-radius: 18px;
+
+  overflow: hidden;
+
+  background-color: #ffffff;
+
+  transition: 0.3s;
+}
+
+.project-section .card:hover {
+  transform: translateY(-8px);
+
+  box-shadow:
+    0 15px 30px rgba(219, 132, 166, 0.18) !important;
+}
+
+.project-section .card-img-top {
+  height: 230px;
+
+  object-fit: cover;
+}
+
+.project-section .card-title {
+  color: #59414e;
+
+  font-weight: bold;
+}
+
+.project-section .card-text {
+  color: #76636d;
+
+  line-height: 1.7;
+}
+
+
+/* =========================================
+   PROJECT BADGE
+========================================= */
+
+.badge.bg-success {
+  background-color: #e9a0bd !important;
+}
+
+.badge.bg-warning {
+  background-color: #f5c1d7 !important;
+
+  color: #684454 !important;
+}
+
+.badge.bg-primary {
+  background-color: #d985aa !important;
+}
+
+
+/* =========================================
+   CONTACT
+========================================= */
+
+.contact-section {
+  background-color: #fff5f9;
+
+  padding: 80px 0 !important;
+}
+
+.contact-box {
+  max-width: 900px;
+
+  min-height: 540px;
+
+  margin: auto;
+
+  display: grid;
+
+  grid-template-columns: 42% 58%;
+
+  background-color: #ffffff;
+
+  border-radius: 28px;
+
+  overflow: hidden;
+
+  box-shadow:
+    0 10px 35px rgba(219, 132, 166, 0.15);
+}
+
+
+/* =========================================
+   CONTACT - KIRI
+========================================= */
+
+.contact-info {
+  background: linear-gradient(
+    135deg,
+    #f3b6ce,
+    #e99abb
+  );
+
+  color: white;
+
+  padding: 50px 48px;
+}
+
+.contact-info h2 {
+  font-family: Georgia, serif;
+
+  font-weight: bold;
+
+  font-size: 28px;
+
+  margin-bottom: 18px;
+}
+
+.contact-info > p {
+  font-size: 14px;
+
+  line-height: 1.8;
+
+  color: white;
+
+  margin-bottom: 30px;
+}
+
+
+/* =========================================
+   CONTACT ICON
+========================================= */
+
+.contact-item {
+  display: flex;
+
+  align-items: center;
+
+  gap: 14px;
+
+  margin-bottom: 18px;
+
+  font-size: 14px;
+}
+
+.contact-icon {
+  width: 40px;
+  height: 40px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  background-color: rgba(255, 255, 255, 0.3);
+
+  border-radius: 10px;
+
+  font-size: 18px;
+}
+
+
+/* =========================================
+   CONTACT - FORM
+========================================= */
+
+.contact-form {
+  padding: 48px;
+
+  background-color: #ffffff;
+}
+
+.contact-form h2 {
+  font-family: Georgia, serif;
+
+  font-size: 27px;
+
+  font-weight: bold;
+
+  color: #9f5475;
+
+  margin-bottom: 28px;
+}
+
+
+/* =========================================
+   LABEL
+========================================= */
+
+.contact-form label {
+  display: block;
+
+  font-size: 13px;
+
+  font-weight: 600;
+
+  color: #765565;
+
+  margin-bottom: 8px;
+}
+
+
+/* =========================================
+   INPUT
+========================================= */
+
+.contact-form .form-control {
+  border: 1px solid #f1c9da;
+
+  background-color: #fffafd;
+
+  border-radius: 12px;
+
+  padding: 13px 15px;
+
+  font-size: 14px;
+
+  color: #604552;
+}
+
+.contact-form .form-control::placeholder {
+  color: #c9a8b7;
+}
+
+
+/* =========================================
+   INPUT FOCUS
+========================================= */
+
+.contact-form .form-control:focus {
+  border-color: #e9a0bd;
+
+  box-shadow:
+    0 0 0 3px rgba(233, 160, 189, 0.15);
+
+  background-color: #ffffff;
+}
+
+
+/* =========================================
+   TEXTAREA
+========================================= */
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+
+/* =========================================
+   BUTTON
+========================================= */
+
+.btn-send {
+  width: 100%;
+
+  border: none;
+
+  background-color: #e9a0bd;
+
+  color: white;
+
+  border-radius: 30px;
+
+  padding: 14px;
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  transition: 0.3s;
+}
+
+.btn-send:hover {
+  background-color: #d986a8;
+
+  color: white;
+
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 5px 15px rgba(217, 134, 168, 0.25);
+}
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+.footer {
+  background-color: #e9a0bd;
+
+  color: white;
+
+  padding: 20px;
+
+  font-size: 14px;
+}
+
+.footer p {
+  margin: 0;
+}
+
+
+/* =========================================
+   RESPONSIVE HP
+========================================= */
+
+@media (max-width: 768px) {
+
+  .jumbotron {
+    padding-top: 110px;
+  }
+
+  .jumbotron h1 {
+    font-size: 32px;
+  }
+
+  .contact-box {
+    grid-template-columns: 1fr;
+
+    margin: 0 15px;
+  }
+
+  .contact-info {
+    padding: 40px 30px;
+  }
+
+  .contact-form {
+    padding: 35px 30px;
+  }
+
+  .contact-info h2 {
+    font-size: 25px;
+  }
+
+  .contact-form h2 {
+    font-size: 25px;
+  }
+
+}
